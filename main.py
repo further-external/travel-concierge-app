@@ -4,7 +4,7 @@ import gemini
 st.set_page_config(page_title="Travel Concierge App")
 st.title("Travel Concierge App")
 
-with st.sidebar:
+with st.sidebar:  
     st.markdown("""
     Plan your trip in detail! Here are a few example requests you can try:
     
@@ -13,7 +13,9 @@ with st.sidebar:
     - Find cheapest direct one way flight for 2 adults from London to Paris on June 1st
     
     Just type your travel request in the chat box below.
-    """)
+    <br>
+    <br>
+    """, unsafe_allow_html=True)
 
     if st.button("Start New Chat", type="primary"):
         del st.session_state.session
