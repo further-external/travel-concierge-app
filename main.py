@@ -14,6 +14,10 @@ with st.sidebar:
     
     Just type your travel request in the chat box below.
     """)
+
+    if st.button("Start New Chat", type="primary"):
+        del st.session_state.session
+    
     
 if "session" not in st.session_state:
     chat_session = gemini.start_chat_session()
