@@ -5,7 +5,6 @@ st.set_page_config(page_title="Travel Concierge App")
 st.title("Travel Concierge App")
 
 with st.sidebar:
-    # st.header("Travel Details")
     st.markdown("""
     Plan your trip in detail! Here are a few example requests you can try:
     
