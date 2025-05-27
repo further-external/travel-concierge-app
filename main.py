@@ -6,7 +6,8 @@ st.title("Travel Concierge App")
 
 with st.sidebar:  
     st.markdown("""
-    Plan your trip in detail! Here are a few example requests you can try:
+    Type `Hello` to see what Travel Concierge is and how it can help you.  
+    Also, here are a few example trip requests you can try:
     
     - Plan my trip to Paris.
     - Plan a trip to Japan for 2 adults, 7 days, relaxed, mid-range price.
